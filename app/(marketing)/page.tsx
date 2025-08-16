@@ -11,7 +11,7 @@ const textFont = Inter({
 });
 const MarketingPage = () => {
     return (
-        <div className="flex items-center justify-centers flex-col">
+        <div className="flex items-center justify-center flex-col">
             <div className={cn(
                 "flex items-center justify-centers flex-col",
                  textFont.className
