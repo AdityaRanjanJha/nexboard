@@ -6,8 +6,8 @@ const PlatformLayout = ({
     children : React.ReactNode;
 }) => {
     return (
-        <ClerkProvider>
-            {children}
+        <ClerkProvider afterSignOutUrl="/">
+                {children}
         </ClerkProvider>
     );
 };
